@@ -154,9 +154,9 @@ void Unpack_Data(void)
       }
        else if (cmdValue == 115)            // 115 mean Inform System Information to OpenPnP
       {
-        Serial.print(F("FIRMWARE_NAME: OpenPnP_CL-Feeder_mega2560 NUMBER_OF_FEEDERS: 0_to_"));
+        Serial.print(F("FIRMWARE_NAME: TSW Electronics OpenPnP CL-Feeder_mega2560 NUMBER_OF_FEEDERS: 0_to_"));
         Serial.print(MaxPinCount-1);
-        Serial.print(F(" ELECTRONICS: CL-Feeder Driver for mega2560 FIRMWARE_VERSION: 24.1.29_1805 "));
+        Serial.print(F(" ELECTRONICS: TSW Electronics CL-Feeder Driver for mega2560 FIRMWARE_VERSION: 24.2.20_1724 "));
         Serial.println();
         Serial.print(F("ok "));
       }
